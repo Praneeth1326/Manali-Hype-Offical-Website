@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("https://th.bing.com/th/id/R.9645bded67113b97494d8838520c362e?rik=xdZWZWMaWmY3CA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f2%2fa%2f2%2f365340.jpg&ehk=0vI3L3wRGVUaSkvyLCf6Tfr6zE3AtRkiA1LbJsYy7II%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-item {
+    margin-left: 20px;
+}
+
+.navbar-links {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar-links:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-toggle {
+        display: flex;
+    }
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-menu.active {
+        display: flex;
+    }
+    .navbar-item {
+        margin: 10px 0;
+    }
+    .navbar-links {
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+}
+
+.content {
+    margin-top: 60px; /* Adjusted for fixed navbar */
+    padding: 20px;
+}

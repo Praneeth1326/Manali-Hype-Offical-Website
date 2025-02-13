@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Plan</title>
+    <link rel="stylesheet" href="Budget Plan.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://dr7f10k1l6bnm.cloudfront.net/wp-content/uploads/2019/09/manali-featured.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-top: 20px;
+            color: rgb(236, 8, 244);
+            text-decoration: underline;
+            text-decoration-color: rgb(241, 119, 5);
+        }
+        .parent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        table {
+            width: 80%;
+            background-color: white;
+            color: black;
+            border-collapse: collapse;
+            font-size: 1.2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        td {
+            color: #333;
+        }
+        .price {
+            color: #ff5722;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-brand">Manali Hype</a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-links">Home Page</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="Budget Plan.html" class="navbar-links">Budget Plan</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="Traveling Plan.html" class="navbar-links">Traveling Plan</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="Precautions.html" class="navbar-links">Precautions</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="Train Tickets.html" class="navbar-links">Train Tickets</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="parent">
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Details</th>
+                <th>Cost</th>
+            </tr>
+            <tr>
+                <td>13/02/2025</td>
+                <td>VZG - NDL <i class="fas fa-train"></i></td>
+                <td class="price">15,360 (train tickets)</td>
+            </tr>
+            <tr>
+                <td>14/02/2025</td>
+                <td>VZG - NDL Food</td>
+                <td class="price">2000/-</td>
+            </tr>
+            <tr>
+                <td>15/02/2025</td>
+                <td>
+                    Mrng (2:40AM) - AGRA Railway station <i class="fas fa-train"></i><br>
+                    Mrng (8:00AM) - Entry to Taj Mahal <i class="fas fa-landmark"></i><br>
+                    Afternoon Lunch<br>
+                    AGRA - NEW DELHI <i class="fas fa-bus"></i><br>
+                    NI8 FOOD<br>
+                    NIGHT START TO MANALI - Trip Package
+                </td>
+                <td>
+                    <span class="price">2000/-</span><br>
+                    <span class="price">3000/-</span><br>
+                    <span class="price">1600/-</span><br>
+                    <span class="price">1000/-</span><br>
+                    <span class="price">56,000/-</span>
+                </td>
+            </tr>
+            <tr>
+                <td>16/02/2025</td>
+                <td>Manali</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>17/02/2025</td>
+                <td>Tours</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>18/02/2025</td>
+                <td>Travels</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>19/02/2025</td>
+                <td>Package</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>16/02/2025</td>
+                <td>
+                    Lunch's per head 200/- a day<br>
+                    Dress rent - 3 days per head 200/- a day<br>
+                    Personal expenses avg per head<br>
+                    Activities per head
+                </td>
+                <td>
+                    <span class="price">10,000/-</span><br>
+                    <span class="price">4,800/-</span><br>
+                    <span class="price">10,000/-</span><br>
+                    <span class="price">16,000/-</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Day-8</td>
+                <td>
+                    Return to NDL (Mrng)<br>
+                    Delhi Local Areas [Red Fort, India Gate, Qutub Minar...]<br>
+                    Delhi avg local expenditure per head
+                </td>
+                <td class="price">4000/-</td>
+            </tr>
+            <tr>
+                <td>20/02/2025</td>
+                <td>
+                    NDL - VZG Food<br>
+                    Sweet home
+                </td>
+                <td class="price">2000/-</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td class="price">1,40,000/- (on avg)</td>
+            </tr>
+            <tr>
+                <td colspan="2">Per head</td>
+                <td class="price">17,500/-</td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            document.querySelector('.navbar-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
